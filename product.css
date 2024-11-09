@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("images/background\ diamond.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header, footer {
+    background-color: #333;
+    color: rgb(70, 147, 169);
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+.flex-container {
+    display: grid;
+    /* justify-content: space-around; */
+    padding: 20px;
+}
+
+.flex-item {
+    width: 45%;
+    text-align: center;
+}
+
+img {
+    width: 33%;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+}
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+  }
+.p{
+    text-align: center;
+
+  }
+  .container {
+    width: 1500px;
+    padding: 30px;
+    background-color: #ffffff8b;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 70px; 
+  }
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
